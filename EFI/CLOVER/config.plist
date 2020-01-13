@@ -534,8 +534,8 @@
 	</dict>
 	<key>DisableDrivers</key>
 	<array>
-		<string>Ps2MouseDxe</string>
 		<string>VBoxHfs</string>
+		<string>Ps2MouseDxe</string>
 	</array>
 	<key>GUI</key>
 	<dict>
@@ -820,7 +820,7 @@
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
 		<key>ROM</key>
-		<data>qUO4QpgF</data>
+		<data>tVGobbIv</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
@@ -833,14 +833,16 @@
 		<key>ProductName</key>
 		<string>MacBookPro12,1</string>
 		<key>SerialNumber</key>
-		<string>C02QH0G9H1DP</string>
+		<string>C02TH4ZHH1DP</string>
+		<key>SmUUID</key>
+		<string>CF1C6749-80ED-47F6-8F85-B284ED6DB22F</string>
 		<key>Trust</key>
 		<true/>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
 		<key>CustomUUID</key>
-		<string>8353A855-9FA2-4A09-91E9-083A1D429805</string>
+		<string>8A52715B-86E6-592F-AEAF-EF43A53D2971</string>
 		<key>InjectKexts</key>
 		<string>Detect</string>
 	</dict>
