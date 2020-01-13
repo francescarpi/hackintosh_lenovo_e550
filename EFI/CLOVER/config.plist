@@ -689,7 +689,7 @@
 				<key>Comment</key>
 				<string>change 15 port limit to 26 in XHCI kext</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>g72M/v//EA==</data>
 				<key>InfoPlistPatch</key>
@@ -705,7 +705,7 @@
 				<key>Comment</key>
 				<string>change 15 port limit to 26 in XHCI kext</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>g710////EA==</data>
 				<key>InfoPlistPatch</key>
@@ -721,7 +721,7 @@
 				<key>Comment</key>
 				<string>change 15 port limit to 26 in XHCI kext</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>g32MEA==</data>
 				<key>InfoPlistPatch</key>
@@ -737,7 +737,7 @@
 				<key>Comment</key>
 				<string>disable port limit in XHCI kext (credit PMHeart)</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>g32UDw+DlwQAAA==</data>
 				<key>InfoPlistPatch</key>
@@ -753,7 +753,7 @@
 				<key>Comment</key>
 				<string>disable port limit in XHCI kext (credit RehabMan, based prior PMHeart patch)</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>g32IDw+DpwQAAA==</data>
 				<key>InfoPlistPatch</key>
@@ -769,7 +769,7 @@
 				<key>Comment</key>
 				<string>disable port limit in XHCI kext (credit PMHeart)</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>g/sPD4MDBQAA</data>
 				<key>InfoPlistPatch</key>
@@ -785,7 +785,7 @@
 				<key>Comment</key>
 				<string>disable port limit in XHCI kext (credit DalianSky,Ricky)</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>g/sPD4OPBAAA</data>
 				<key>InfoPlistPatch</key>
@@ -810,6 +810,34 @@
 				<string>AppleAHCIPort</string>
 				<key>Replace</key>
 				<data>SW50ZXJuYWw=</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Port limit removal patch</string>
+				<key>Disabled</key>
+				<true/>
+				<key>Find</key>
+				<data>g/sPDw==</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>com.apple.iokit.IOUSBHostFamily</string>
+				<key>Replace</key>
+				<data>g/s/Dw==</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Port limit removal patch</string>
+				<key>Disabled</key>
+				<true/>
+				<key>Find</key>
+				<data>g/kPDw==</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>com.apple.driver.usb.AppleUSBHXCI</string>
+				<key>Replace</key>
+				<data>g/k/Dw==</data>
 			</dict>
 		</array>
 	</dict>
