@@ -329,9 +329,7 @@
 					<key>Comment</key>
 					<string>(GBIF,3,N)  ---&gt; XBIF Battery</string>
 					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>R0JJRgM=</data>
+					<true/>
 					<key>Replace</key>
 					<data>WEJJRgM=</data>
 				</dict>
@@ -339,9 +337,7 @@
 					<key>Comment</key>
 					<string>(GBST,4,N) ---&gt; XBST Battery</string>
 					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>R0JTVAQ=</data>
+					<true/>
 					<key>Replace</key>
 					<data>WEJTVAQ=</data>
 				</dict>
@@ -349,9 +345,7 @@
 					<key>Comment</key>
 					<string>Notify (BAT1, 0x80) ---&gt; BATC  Battery</string>
 					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>hkJBVDEKgA==</data>
+					<true/>
 					<key>Replace</key>
 					<data>hkJBVEMKgA==</data>
 				</dict>
@@ -359,9 +353,7 @@
 					<key>Comment</key>
 					<string>Notify (BAT0, 0x81) ---&gt; BATC  Battery</string>
 					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>hkJBVDAKgQ==</data>
+					<true/>
 					<key>Replace</key>
 					<data>hkJBVEMKgQ==</data>
 				</dict>
@@ -369,9 +361,7 @@
 					<key>Comment</key>
 					<string>Notify (BAT0, 0x80) ---&gt; BATC  Battery</string>
 					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>hkJBVDAKgA==</data>
+					<true/>
 					<key>Replace</key>
 					<data>hkJBVEMKgA==</data>
 				</dict>
@@ -399,9 +389,7 @@
 					<key>Comment</key>
 					<string>Notify (_SB.PCI0.LPC.EC.BAT1, 0x01) ---&gt; BATC   Battery</string>
 					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>hlwvBV9TQl9QQ0kwTFBDX0VDX19CQVQxAQ==</data>
+					<true/>
 					<key>Replace</key>
 					<data>hlwvBV9TQl9QQ0kwTFBDX0VDX19CQVRDAQ==</data>
 				</dict>
@@ -409,9 +397,7 @@
 					<key>Comment</key>
 					<string>Notify (_SB.PCI0.LPC.EC.BAT1, 0x03) ---&gt; BATC   Battery</string>
 					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>hlwvBV9TQl9QQ0kwTFBDX0VDX19CQVQxCgM=</data>
+					<true/>
 					<key>Replace</key>
 					<data>hlwvBV9TQl9QQ0kwTFBDX0VDX19CQVRDCgM=</data>
 				</dict>
