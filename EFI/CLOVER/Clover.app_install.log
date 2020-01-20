@@ -1,0 +1,36 @@
+
+Clover Installer r5103 (3f3b85da) (v1.1.1), 2020-01-20 04:17:28
+macOS Versión 10.15.2 (Compilación 19C57)
+SELF = /Applications/Clover.app/Contents/MacOS/CloverDaemonNew
+Backup made at:
+/Users/farpi/Desktop/CloverBackUp/KINGSTON SV300S37A240G Media/r5097_2020-01-20_04-17-22/EFI.
+Target volume: /Volumes/EFI
+BSD Name:      disk1s1
+Filesystem:    FAT32
+Is internal:   true
+Is writable:   true
+
+Installing/Updating Clover:
++ ../BOOT/BOOTX64.efi
++ ../CLOVER/CLOVERX64.efi
+
+Installing/Updating drivers:
++ ../UEFI/AudioDxe.efi
++ ../UEFI/DataHubDxe.efi
++ ../UEFI/FSInject.efi
++ ../UEFI/ApfsDriverLoader.efi
++ ../UEFI/HFSPlus.efi
++ ../UEFI/FirmwareVolume.efi
++ ../UEFI/PartitionDxe.efi
++ ../BIOS/AudioDxe.efi
++ ../BIOS/FSInject.efi
++ ../BIOS/XhciDxe.efi
++ ../BIOS/ApfsDriverLoader.efi
+
+Installing/Updating tools:
++ ../tools/Shell64.efi
++ ../tools/bdmesg.efi
++ ../tools/Shell64U.efi
++ ../tools/Shell32.efi
+
+Installing/Updating docs:
